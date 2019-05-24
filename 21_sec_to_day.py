@@ -1,0 +1,12 @@
+day =int(input('enter_day'))
+# 1day=24hrs
+# 1hr=60min
+# 1hr=360sec
+# 1day=24*60min
+# 1day=24*360sec
+day_into_hrs = day * 24 
+day_into_min = day * 24 * 60
+day_into_sec = day * 24 * 360
+print(day,'days =', day_into_hrs,'hrs')
+print(day,'days=', day_into_min,'min')
+print(day,'days=', day_into_sec,'sec')
